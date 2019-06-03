@@ -1,0 +1,4 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Ernie Hao | PWA Evolved"
+description = "A personal site following PWA guidelines"
