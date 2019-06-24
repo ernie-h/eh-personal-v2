@@ -1,20 +1,40 @@
-
 .Hero {
-  background-color: var(--main-color);
-}
-
-.HeroText {
-  /* TODO: find better way to center */
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  color: white;
+  position: relative;
+  min-height: 40vh;
+  overflow: hidden;
+  background-color: var(--theme-1);
 }
 
-.HeroText h1 {
-  padding: 8px;
-  border-radius: 4px;
-  background-color: var(--white);
-  color: var(--main-color);
+.Hero--bg {
+  /* TODO: Bacground diagnol bottom border */
+  /* background-color: var(--theme-1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: skewY(-6deg);
+  transform-origin: top left; */
+}
+
+.HeroHeading {
+  margin-top: 32px;
+  position: relative;
+}
+
+.HeroHeading h1 {
+  font-size: 2.5em;
+  color: var(--theme-3);
+
+}
+
+.HeroHeading h3 {
+  margin-left: 2px;
+  font-size: 1.5em;
+  color: var(--gray);
 }

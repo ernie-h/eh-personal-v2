@@ -26,8 +26,10 @@
 }
 
 :root {
-  --main-color: rgb(45, 128, 196);
-  --gray: rgb(244, 244, 244);
+  --theme-1: #183661;
+  --theme-2: #1c4b82;
+  --theme-3: #dd6b4d;
+  --gray: #dae1e7;
   --white: #fff;
   --font: "Roboto", sans-serif;
 }
@@ -37,13 +39,20 @@ html,
 body {
   margin: 0 auto;
   font-family: var(--font);
+  font-size: 16px;
+  background-color: var(--gray);
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   margin: 0 auto;
   font-weight: normal;
 }
 
 section {
   min-height: 65vh;
+  padding: 32px;
 }
