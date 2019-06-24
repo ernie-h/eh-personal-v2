@@ -1,0 +1,20 @@
+
+.Hero {
+  background-color: var(--main-color);
+}
+
+.HeroText {
+  /* TODO: find better way to center */
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.HeroText h1 {
+  padding: 8px;
+  border-radius: 4px;
+  background-color: var(--white);
+  color: var(--main-color);
+}
