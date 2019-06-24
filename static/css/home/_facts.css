@@ -1,3 +1,13 @@
 .Facts {
   background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.FactsDescription {
+  width: 60%;
+  font-weight: 100;
+  color: var(--theme-1);
 }

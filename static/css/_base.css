@@ -30,7 +30,7 @@
   --theme-2: #1c4b82;
   --theme-3: #dd6b4d;
   --gray: #dae1e7;
-  --white: #fff;
+  --white: #ffffff;
   --font: "Roboto", sans-serif;
 }
 
@@ -50,8 +50,13 @@ h4,
 h5 {
   margin: 0 auto;
   font-weight: normal;
+  line-height: 1.25em;
+
 }
 
+p {
+  line-height: 1.75em;
+}
 section {
   min-height: 65vh;
   padding: 32px;

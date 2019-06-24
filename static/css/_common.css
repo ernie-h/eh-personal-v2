@@ -1,7 +1,7 @@
 .Heading {
-  /* TODO: find better way to center */
-  padding: 8px;
-  border-radius: 4px;
-  background-color: var(--gray);
   color: var(--theme-3);
+  border-bottom: solid 1px var(--gray);
+  line-height: 1.75em;
+  font-size: 1.5em;
+  text-transform: uppercase;
 }
