@@ -1,4 +1,33 @@
 .Skills {
   background-color: var(--white);
+}
 
+.SkillsCard {
+  color: var(--theme-2);
+  margin: 32px auto;
+}
+
+.SkillsCard-Heading h3 {
+  background: var(--linGrad-2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.circle {
+  height: 16px;
+  width: 16px;
+  background-color: var(--theme-3);
+  border-radius: 50%;
+  margin-top: 4px;
+  margin-right: 4px;
+}
+
+
+.SkillsCard ul{
+  line-height: 1.75em;
+}
+.SkillsCard li{
+  margin-bottom: 16px;
 }
