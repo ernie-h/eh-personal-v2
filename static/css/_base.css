@@ -46,7 +46,7 @@ body {
   margin: 0 auto;
   font-family: var(--font);
   font-size: 16px;
-  background-color: var(--gray);
+  background-color: var(--white);
 }
 
 h1,
@@ -74,5 +74,5 @@ a:hover {
 }
 
 section {
-  padding: 1.5em 15%;
+  /* padding: 1.5em 15%; */
 }

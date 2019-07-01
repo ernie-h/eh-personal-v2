@@ -1,9 +1,7 @@
 .Facts {
-  background-color: var(--white);
   display: flex;
   justify-content: center;
-  align-items: center;
-  min-height: 30vh;
+  margin: 8% 0;
 }
 
 .FactsDescription {

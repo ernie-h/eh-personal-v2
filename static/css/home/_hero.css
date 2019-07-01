@@ -1,38 +1,41 @@
 .Hero {
-  min-height: 40vh;
-  overflow: hidden;
   background: var(--linGrad-2);
-}
-
-.Hero--bg {
-  /* TODO: Bacground diagnol bottom border */
-  /* background-color: var(--mainCol);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform: skewY(-6deg);
-  transform-origin: top left; */
+  min-height: 40vh;
 }
 
 .HeroHeading {
-  margin-top: 10%;
-  position: relative;
+  padding: 12% 0 12% 20%;
 }
 
 .HeroHeading h1 {
   font-size: 2.5em;
+  color: var(--mainCol);
+}
+
+.HeroHeading h1:last-of-type {
   color: var(--mainCol--light);
-  /* background: var(--linGrad-webkit-1); */
-/* -webkit-background-clip: text;
--webkit-text-fill-color: transparent; */
+  ;
 }
 
 .HeroHeading h3 {
-  margin-left: 2px;
   font-size: 1.5em;
-  color: var(--gray);
+  color: var(--white);
+}
+
+
+/* TODO: Random hero */
+.Hero svg {
+  position: absolute;
+  top: 264px;
+  left: 94px;
+  z-index: 2;
+}
+
+#donut-icing {
+  fill: #FA9CB6;
+  transition: fill 3s ease-out;
+}
+
+#donut:hover #donut-icing {
+  fill: #4a8af4;
 }
