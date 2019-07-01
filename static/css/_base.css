@@ -26,15 +26,14 @@
 }
 
 :root {
-  --theme-1: #183661;
-  --theme-2: #1c4b82;
-  /* 1c4b82 */
-  --theme-3: #dd6b4d;
-  --theme-4: #df9785;
+  --mainCol: #183661;
+  --mainCol--light: #1c4b82;
+  --secCol: #dd6b4d;
+  --secCol--light: #df9785;
 
-  --linGrad-1: linear-gradient(var(--theme-1), var(--theme2));
+  --linGrad-1: linear-gradient(var(--mainCol), var(--theme2));
   --linGrad-webkit-1: -webkit-linear-gradient(top left, #183661, #1c4b82);
-  --linGrad-2: linear-gradient(to top right, var(--theme-3), var(--theme-4));
+  --linGrad-2: linear-gradient(to top right, var(--secCol), var(--secCol--light));
 
   --gray: #dae1e7;
   --white: #ffffff;
@@ -65,7 +64,15 @@ p {
   line-height: 1.75em;
 }
 
+a {
+  text-decoration: none;
+  color: var(--mainCol--light);
+}
+
+a:hover {
+  color: var(--secCol);
+}
+
 section {
-  min-height: 65vh;
-  padding: 32px 100px;
+  padding: 1.5em 15%;
 }

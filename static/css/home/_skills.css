@@ -2,9 +2,13 @@
   background-color: var(--white);
 }
 
+.SkillsCards {
+  margin: 0 20%;
+}
+
 .SkillsCard {
-  color: var(--theme-2);
-  margin: 32px auto;
+  margin-bottom: 15%;
+  color: var(--mainCol--light);
 }
 
 .SkillsCard-Heading h3 {
@@ -12,22 +16,15 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
-  font-style: italic;
 }
 
-.circle {
-  height: 16px;
-  width: 16px;
-  background-color: var(--theme-3);
-  border-radius: 50%;
-  margin-top: 4px;
-  margin-right: 4px;
-}
-
-
-.SkillsCard ul{
+.SkillsCard ul {
   line-height: 1.75em;
+  padding-left: 15%;
+  margin-left: -12%; /*TODO: might be better way*/
+  border-left: solid 1px var(--gray);
 }
-.SkillsCard li{
+
+.SkillsCard li {
   margin-bottom: 16px;
 }

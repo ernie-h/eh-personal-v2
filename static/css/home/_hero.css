@@ -1,8 +1,4 @@
 .Hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
   min-height: 40vh;
   overflow: hidden;
   background: var(--linGrad-2);
@@ -10,7 +6,7 @@
 
 .Hero--bg {
   /* TODO: Bacground diagnol bottom border */
-  /* background-color: var(--theme-1);
+  /* background-color: var(--mainCol);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -23,13 +19,13 @@
 }
 
 .HeroHeading {
-  margin-top: 32px;
+  margin-top: 10%;
   position: relative;
 }
 
 .HeroHeading h1 {
   font-size: 2.5em;
-  color: var(--theme-2);
+  color: var(--mainCol--light);
   /* background: var(--linGrad-webkit-1); */
 /* -webkit-background-clip: text;
 -webkit-text-fill-color: transparent; */
