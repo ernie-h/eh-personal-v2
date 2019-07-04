@@ -47,6 +47,7 @@ body {
   font-family: var(--font);
   font-size: 16px;
   background-color: var(--white);
+  color: var(--mainCol);
 }
 
 h1,
@@ -73,6 +74,7 @@ a:hover {
   color: var(--secCol);
 }
 
-section {
-  /* padding: 1.5em 15%; */
+main {
+  margin: 15% 0;
+
 }

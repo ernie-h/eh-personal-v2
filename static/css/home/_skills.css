@@ -20,8 +20,7 @@
 
 .SkillsCard ul {
   line-height: 1.75em;
-  padding-left: 15%;
-  margin-left: -12%; /*TODO: might be better way*/
+  margin-left: 0.75em;
   border-left: solid 1px var(--gray);
 }
 
