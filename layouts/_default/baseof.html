@@ -3,10 +3,10 @@
 {{ partial "head.html" . }}
 
 <body>
-  <main aria-role="main">
-    {{ block "main" . }}
-    {{ end }}
-  </main>
+  {{ block "header" . }}
+  {{ end }}
+  {{ block "main" . }}
+  {{ end }}
   {{ block "footer" . }}
   {{ end }}
 </body>

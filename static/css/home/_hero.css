@@ -1,10 +1,12 @@
 .Hero {
+  display: flex;
+  align-items: center;
   background: var(--linGrad-2);
-  min-height: 40vh;
+  padding: 10rem 0;
 }
 
 .HeroHeading {
-  padding: 12% 0 12% 20%;
+  margin: 0 15%;
 }
 
 .HeroHeading h1 {

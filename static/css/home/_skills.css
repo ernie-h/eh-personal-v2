@@ -2,12 +2,8 @@
   background-color: var(--white);
 }
 
-.SkillsCards {
-  margin: 0 20%;
-}
-
 .SkillsCard {
-  margin: 15% 0;
+  margin: 1.75em 0;
   color: var(--mainCol--light);
 }
 

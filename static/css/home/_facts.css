@@ -1,11 +1,9 @@
 .Facts {
   display: flex;
   justify-content: center;
-  margin: 8% 0;
 }
 
 .FactsDescription {
-  width: 60%;
   font-weight: 100;
   color: var(--mainCol);
 }

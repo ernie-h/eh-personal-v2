@@ -1,4 +1,10 @@
 {{ define "main" }}
-<h1> Single </h1>
+<main aria-role="main">
+
+<article class="ContentContainer">
+  <h1> {{.Title}} </h1>
   <!-- The part of the page that begins to differ between templates -->
+  {{.Content}}
+</article>
+</main>
 {{ end }}

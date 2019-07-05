@@ -6,7 +6,7 @@
   display: flex;
   flex-flow: column wrap;
   flex-direction: row;
-  margin: 1.5em 15%;
+  margin: 1.5em 0;
 }
 
 .ProjectCard img {
@@ -17,8 +17,8 @@
 }
 
 .ProjectCard-Text {
-  width: 65%;
   border-bottom: var(--gray) solid 1px;
+  padding-bottom: 1.75em;
 }
 
 .ProjectCard-Text h3 {

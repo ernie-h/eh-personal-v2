@@ -1,7 +1,9 @@
 {{ define "main" }}
-  {{ partial "home/hero" . }}
-  {{ partial "home/facts" . }}
-  {{ partial "home/skills" . }}
-  {{ partial "home/projects" . }} 
-  {{ partial "home/contact" . }}
+{{ partial "hero" . }}
+  <main aria-role="main">
+    {{ partial "home/facts" . }}
+    {{ partial "home/skills" . }}
+    {{ partial "home/projects" . }}
+    {{ partial "home/contact" . }}
+  </main>
 {{ end }}

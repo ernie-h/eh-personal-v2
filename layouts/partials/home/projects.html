@@ -12,7 +12,7 @@
 					<span class="ProjectCard-Tags">
 						<h5>TAGS:</h5>
 						{{ range .Site.Taxonomies.tags }}
-						{{/*  <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>,  */}}
+						<a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>,
 						{{ end }}
 					</span>
 				</div>
