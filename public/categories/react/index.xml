@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>React on Ernie Hao</title>
+    <link>/categories/react/</link>
+    <description>Recent content in React on Ernie Hao</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/react/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kooker (2018)</title>
+      <link>/projects/kooker/</link>
+      <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/kooker/</guid>
+      <description>Front Matter Variables Predefined There are a few predefined variables that Hugo is aware of. See Page Variables for how to call many of these predefined variables in your templates.</description>
+    </item>
+    
+    <item>
+      <title>TorchTales (2016)</title>
+      <link>/projects/torchtales/</link>
+      <pubDate>Wed, 06 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/torchtales/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

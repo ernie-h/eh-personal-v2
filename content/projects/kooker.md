@@ -2,8 +2,9 @@
 title = "Kooker (2018)"
 description = "Kooker is a social media platform that connects homecooks, verified chefs, and critics, built with React and Springboot."
 date = "2018-07-06"
-categories = ["Development", "React"]
+categories = ["Development"]
 tags = ["React", "SpringBoot"]
+tags_weight = 1
 cardImg="/img/projects/kooker.png"
 type = "projects"
 +++

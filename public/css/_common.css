@@ -1,0 +1,24 @@
+.Heading {
+  background: var(--linGrad-2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: solid 1px var(--gray);
+  line-height: 1.75em;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.ContentContainer {
+  /* margin: 0 15%; */
+}
+
+.ContentList {
+  list-style: none;
+  margin: 0 10.5em;
+}
+
+.ContentList li {
+  border-left: solid 1px var(--gray);
+  margin-top: 2.5em;
+  padding-left: 1.25em;
+}
