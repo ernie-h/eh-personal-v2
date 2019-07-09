@@ -1,7 +1,72 @@
+# MAIN
 baseURL = "/"
 languageCode = "en-us"
 title = "Ernie Hao"
-description = "A personal site"
+description = "A personal site to showcase my software development journey"
 
+# CONTENT
 paginate = 10
 summaryLength = 20
+
+# MENU
+[menu]
+  [[menu.main]]
+      identifier="home"
+      name = "Home"
+      url  = "/"
+      weight = 1
+
+  [[menu.main]]
+      identifier = "projects"
+      name = "Projects"
+      url  = "/projects/"
+      weight = 2
+
+  [[menu.main]]
+      identifier="blog"
+      name = "Blog"
+      url  = "/blog/"
+      weight = 3
+
+  [[menu.main]]
+      identifier = "contact"
+      name = "Contact"
+      url  = "/contact"
+      weight = 4
+
+# PARAMS
+[params]
+
+# TODO: MOVE INTO CONTENT FILE
+  [[params.skills]]
+    name="FRONT-END"
+    value="""
+        <li>Experienced in <b>HTML, CSS, and Javascript(ES5/ES6)</b> and tend to use these whenever possible to reduce overhead</li>
+        <li>My current front-end frameworks are <b>React</b> and <b>Hugo</b> following <b>JAM Stack trends.</b><br>
+          I use React with <b>TypeScript, ReactHooks,</b> and <b> Reducers/Redux</b><br>
+          and <b>Hugo</b> for quick static site generation</li>
+        <li>Other frameworks/libraries I use are: <b>Rails, Angular, SCSS, Contentful (CMS)</b></li>
+        <li>For testing I use <b>jest, enzyme, react-testing-library</b></li>
+        """
+  [[params.skills]]
+    name="BACK-END"
+    value="""<li>Experienced with <b>Java, Javascript, Python, and C</b> for back-end development </li>
+        <li>Frameworks I use for API development are: <b>Node.js, Express, Springboot</b></li>
+        <li>I've been experimenting with: <b>Go, Rust</b> and <b>GraphQL</b> for faster service layer development</li>
+        """
+  [[params.skills]]
+    name="DATA"
+    value="""
+        <li>For query languages, I use <b>SQL</b> and <b>Mongo</b></li>
+        <li>I've been experimenting with <b>TesorFlow</b> for machine-learning model training, focused on <b> text classification and summarization </b> <br>
+        and <b>ElasticSearch</b> for search optimizations</li>
+        """
+  [[params.skills]]
+    name="INFRASTRUCTURE"
+    value="""
+       <li>For cloud hosting, I use: <b>AWS and Heroku</b></li>
+       <li>For continuous deploment/integration tools, I use: <b>BuildKite and Netlify</b></li>
+       <li>For Front-end build tools I use: <b>Webpack, rollup, postCSS</b></li>=
+       <li> I've been experiementing with <b>Docker</b> and <b>Monorepos</b> for large-scale applications
+        """
+  

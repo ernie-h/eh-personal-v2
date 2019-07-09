@@ -1,8 +1,19 @@
 <section class="Skills">
   <div class="Heading">Skills</div>
-  {{/*  TODO: Iterate with hugo range and config.toml  */}}
+  {{/*  TODO: Render through content instead of config.toml */}}
+  {{ if .Site.Params.Skills }}
   <div class="SkillsCards">
-    <div class="SkillsCard">
+    {{ range .Site.Params.Skills }}
+      <div class="SkillsCard">
+          <span class="SkillsCard-Heading">
+            <h3>{{ .name }}</h3>
+          </span>
+          <ul>
+            {{ .value | safeHTML }}
+          </ul>
+        </div>
+      {{ end }}
+    {{/*  <div class="SkillsCard">
       <span class="SkillsCard-Heading">
         <h3>Front-end</h3>
       </span>
@@ -54,6 +65,7 @@
       <ul>
         <li>I'm quite interested in <b>machine-learning</b> and will begin some projects in <b>Tensorflow</b></li>
       </ul>
-    </div>
+    </div>  */}}
   </div>
+  {{ end }}
 </section>

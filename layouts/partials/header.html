@@ -7,10 +7,12 @@
         </svg>
       </a>
     </div>
+    {{ if .Site.Menus.main }}
     <span class="HeaderNav-Links">
-      <a href="#skills">SKILLS</a>
-      <a href="/projects">PROJECTS</a>
-      <a href="#contact">CONTACT</a>
+      {{ range .Site.Menus.main }}
+      <a href="{{ .URL }}">{{.Name}}</a>
+      {{ end }}
     </span>
+    {{ end }}
   </nav>
 </header>
