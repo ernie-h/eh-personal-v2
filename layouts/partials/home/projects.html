@@ -10,20 +10,15 @@
 				<h3>{{ .Title }}</h3>
 				<p>{{ .Description }}</p>
 				{{ $taxo := "tags" }}
-				<!-- Use the plural form here -->
 				<span class="ProjectCard-Tags">
 					<h5>TAGS:</h5>
 					{{ range .Param $taxo }}
 						{{ $name := . }}
 						{{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
-							<a href="{{ .Permalink }}">{{ $name }}</a>
+							<a class="ProjectCard-Tag" href="{{ .Permalink }}">{{ $name }}</a>
 						{{ end }}
 					{{ end }}
 				</span>
-				{{/*  <h5>TAGS:</h5>
-						{{ range .Site.Taxonomies.tags }}
-				<a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>,
-				{{ end }} */}}
 			</div>
 		</div>
 	</a>

@@ -1,0 +1,53 @@
+.HeaderNav--fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.HeaderNav-Placeholder {
+  height: 60px;
+  display: none;
+}
+.displayPlaceholder {
+  display: block;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  background: var(--mainCol--light);
+  position: sticky;
+  -webkit-box-shadow: 2px 9px 21px -4px #777;
+  -moz-box-shadow: 2px 9px 21px -4px #777;
+  box-shadow: 2px 9px 21px -4px #777;
+
+}
+
+.HeaderNav-Links {
+  margin-right: 3em;
+}
+
+.HeaderNav-Logo {
+  margin-left: 15%;
+  transition: height 10ms ease-in-out;
+  /* visibility: hidden; */
+}
+
+.HeaderNav-Logo svg {
+  width: 48px;
+  height: 48px;
+}
+
+/* .visible-logo {
+  visibility: visible;
+} */
+
+nav a {
+  color: var(--secCol--light);
+  text-transform: uppercase;
+  margin-right: 1em;
+}

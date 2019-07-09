@@ -37,7 +37,11 @@
   font-size: .75em;
 }
 
-.ProjectCard-Tags a {
+/* .ProjectCard-Tags a {
+  content: ", ";
+} */
+.ProjectCard-Tag + .ProjectCard-Tag:before {
   font-style: normal;
   font-size: .75em;
+  content: ", ";
 }

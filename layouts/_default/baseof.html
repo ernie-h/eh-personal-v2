@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 {{ partial "head.html" . }}
-
 <body>
-  {{ block "header" . }}
+  {{/*  TODO: Workaround for showing Hero or not  */}}
+  {{ if .IsHome }}
+  {{ partial "hero" . }}
   {{ end }}
+  {{ partial "header" . }}
   {{ block "main" . }}
   {{ end }}
   {{ block "footer" . }}
