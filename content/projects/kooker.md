@@ -1,5 +1,5 @@
 +++
-title = "Kooker (2018)"
+title = "Kooker"
 description = "Kooker is a social media platform that connects homecooks, verified chefs, and critics, built with React and Springboot."
 date = "2018-07-06"
 categories = ["Development"]

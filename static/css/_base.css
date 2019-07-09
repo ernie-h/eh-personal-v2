@@ -75,7 +75,12 @@ a:hover {
 }
 
 main {
-  margin: 0 15%;
+  width: 80%;
+  max-width: 710px;
+  margin: 4rem auto;
+  padding-bottom: 4rem;
+  border-bottom: #EBF2F6 1px solid;
+  word-wrap: break-word;
 }
 
 section {

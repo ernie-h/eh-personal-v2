@@ -42,7 +42,7 @@ summaryLength = 20
     name="FRONT-END"
     value="""
         <li>Experienced in <b>HTML, CSS, and Javascript(ES5/ES6)</b> and tend to use these whenever possible to reduce overhead</li>
-        <li>My current front-end frameworks are <b>React</b> and <b>Hugo</b> following <b>JAM Stack trends.</b><br>
+        <li>My current front-end frameworks are <b>React</b> and <b>Hugo</b>, following the <b>JAM Stack</b> standard.<br>
           I use React with <b>TypeScript, ReactHooks,</b> and <b> Reducers/Redux</b><br>
           and <b>Hugo</b> for quick static site generation</li>
         <li>Other frameworks/libraries I use are: <b>Rails, Angular, SCSS, Contentful (CMS)</b></li>
@@ -64,9 +64,9 @@ summaryLength = 20
   [[params.skills]]
     name="INFRASTRUCTURE"
     value="""
-       <li>For cloud hosting, I use: <b>AWS and Heroku</b></li>
+       <li>For cloud hosting services, I use <b>AWS</b> and <b>Heroku</b></li>
        <li>For continuous deploment/integration tools, I use: <b>BuildKite and Netlify</b></li>
-       <li>For Front-end build tools I use: <b>Webpack, rollup, postCSS</b></li>=
-       <li> I've been experiementing with <b>Docker</b> and <b>Monorepos</b> for large-scale applications
+       <li>For Front-end build tools I use: <b>Webpack, rollup, postCSS</b></li>
+       <li> I've been experiementing with <b>Docker</b> for containerizing large applications
         """
   

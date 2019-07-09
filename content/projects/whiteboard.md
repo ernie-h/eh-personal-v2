@@ -1,5 +1,5 @@
 +++
-title = "Whiteboard (2018)"
+title = "Whiteboard"
 description = "Whiteboard is a course managing site for student and faculty members, built with React, MEAN stack, and Springboot."
 date = "2018-07-01"
 categories = ["Development", "School"]
