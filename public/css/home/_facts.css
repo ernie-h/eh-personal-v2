@@ -1,9 +1,0 @@
-.Facts {
-  display: flex;
-  justify-content: center;
-}
-
-.FactsDescription {
-  font-weight: 100;
-  color: var(--mainCol);
-}

@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html>
 {{ partial "head.html" . }}
+{{ if .IsHome }}
+  {{ partial "hero" . }}
+{{ end }}
 <body>
   {{/*  TODO: Workaround for showing Hero or not  */}}
-  {{ if .IsHome }}
-  {{ partial "hero" . }}
-  {{ end }}
   {{ partial "header" . }}
   {{ block "main" . }}
   {{ end }}
-  {{ block "footer" . }}
-  {{ end }}
+  {{ partial "footer" . }}
 </body>
-
 </html>

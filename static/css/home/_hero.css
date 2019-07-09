@@ -6,7 +6,10 @@
 }
 
 .HeroHeading {
-  margin: 0 15%;
+  width: 80%;
+  max-width: 710px;
+  margin: 0 auto;
+  word-wrap: break-word;
 }
 
 .HeroHeading h1 {
@@ -22,22 +25,4 @@
 .HeroHeading h3 {
   font-size: 1.5em;
   color: var(--white);
-}
-
-
-/* TODO: Random hero */
-.Hero svg {
-  position: absolute;
-  top: 264px;
-  left: 94px;
-  z-index: 2;
-}
-
-#donut-icing {
-  fill: #FA9CB6;
-  transition: fill 3s ease-out;
-}
-
-#donut:hover #donut-icing {
-  fill: #4a8af4;
 }

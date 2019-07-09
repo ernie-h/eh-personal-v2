@@ -1,0 +1,45 @@
+/* TODO: Fix footer when main is not large enough */
+/* footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+} */
+
+.FooterNav {
+  -webkit-box-shadow: 2px 9px 25px 6px #777;
+  -moz-box-shadow: 2px 9px 25px 6px #777;
+  box-shadow: 2px 9px 25px 6px #777;
+  background: var(--linGrad-2);
+}
+
+.FooterNav :first-child {
+  margin-left: 10%;
+}
+
+.FooterNav a {
+  color: var(--mainCol--light);
+}
+
+.FooterNav a:hover {
+  color: var(--mainCol);
+}
+
+.FooterNav :last-child {
+  margin-right: 10%;
+}
+
+.FooterNav-Social {
+  display: inherit;
+}
+
+.FooterNav-Social svg {
+  width: 36px;
+  height: 36px;
+  fill: var(--mainCol--light);
+  transition: 0.2s ease-in-out;
+}
+
+.FooterNav-Social svg:hover {
+  transform: scale(1.2);
+  fill: var(--mainCol);
+}
