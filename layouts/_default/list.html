@@ -1,29 +1,33 @@
 {{ define "main" }}
 <main aria-role="main">
-  <article class="ContentContainer">
+  <article class="Content">
     <h1 class="Heading">{{.Title}}</h1>
+    <p>{{.Description}}</p>
     <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
-    {{.Content}}
+    {{/*  {{.Content}}  */}}
   </article>
   <ul class="ContentList">
     <!-- Ranges through content/posts/*.md -->
     {{ range .Pages }}
-    <li>
-      <div class="list__header">
-        <h3><a href="{{.Permalink}}" rel="bookmark">{{.Title}}</a></h3>
-        <div class="list__meta meta">
-          <div class="meta__item-datetime meta__item">
-            <svg width="16" height="14" viewBox="0 0 30 28">
-              <path
-                d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z">
-              </path>
-            </svg>
-            <time class="meta__text" datetime="2019-03-10T00:00:00">{{.Date.Format "2006-01-02"}}</time>
+    <a href="{{ .URL }}">
+        <div class="ProjectCard">
+          <img src="{{.Params.cardImg }}">
+          <div class="ProjectCard-Text">
+            <h3>{{ .Title }}</h3>
+            <p>{{ .Description }}</p>
+            {{ $taxo := "tags" }}
+            <span class="ProjectCard-Tags">
+              <h5>TAGS:</h5>
+              {{ range .Param $taxo }}
+              {{ $name := . }}
+              {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
+              <a class="ProjectCard-Tag" href="{{ .Permalink }}">{{ $name }}</a>
+              {{ end }}
+              {{ end }}
+            </span>
           </div>
         </div>
-      </div>
-      <div class="content list__excerpt post__content clearfix">{{.Description}}</div>
-    </li>
+      </a>
     {{ end }}
   </ul>
 </main>

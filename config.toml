@@ -31,7 +31,7 @@ summaryLength = 20
   [[menu.main]]
       identifier = "contact"
       name = "Contact"
-      url  = "/contact"
+      url  = "#contact"
       weight = 4
 
 # PARAMS

@@ -1,27 +1,27 @@
 <section class="Projects">
 	<div class="Heading">Projects</div>
-	{{/*  <div class="ProjectCards">  */}}
-	{{ $paginator := .Paginate (where .Pages "Type" "projects") }}
-	{{ range $paginator.Pages }}
-	<a href="{{ .URL }}">
-		<div class="ProjectCard">
-			<img src="{{.Params.cardImg }}">
-			<div class="ProjectCard-Text">
-				<h3>{{ .Title }}</h3>
-				<p>{{ .Description }}</p>
-				{{ $taxo := "tags" }}
-				<span class="ProjectCard-Tags">
-					<h5>TAGS:</h5>
-					{{ range .Param $taxo }}
+	<div class="ProjectCards">
+		{{ $paginator := .Paginate (where .Pages "Type" "projects") }}
+		{{ range $paginator.Pages }}
+		<a href="{{ .URL }}">
+			<div class="ProjectCard">
+				<img src="{{.Params.cardImg }}">
+				<div class="ProjectCard-Text">
+					<h3>{{ .Title }}</h3>
+					<p>{{ .Description }}</p>
+					{{ $taxo := "tags" }}
+					<span class="ProjectCard-Tags">
+						<h5>TAGS:</h5>
+						{{ range .Param $taxo }}
 						{{ $name := . }}
 						{{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
-							<a class="ProjectCard-Tag" href="{{ .Permalink }}">{{ $name }}</a>
+						<a class="ProjectCard-Tag" href="{{ .Permalink }}">{{ $name }}</a>
 						{{ end }}
-					{{ end }}
-				</span>
+						{{ end }}
+					</span>
+				</div>
 			</div>
-		</div>
-	</a>
-	{{ end }}
-	{{/*  </div>  */}}
+		</a>
+		{{ end }}
+	</div>
 </section>

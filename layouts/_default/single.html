@@ -1,7 +1,8 @@
 {{ define "main" }}
 <main aria-role="main">
-<article class="ContentContainer">
+<article class="Content">
   <h1> {{.Title}} </h1>
+  <h5 class="Content-Date">{{.Params.Author}} · {{.Date.Format "Jan 02, 2006"}}</h5>
   <!-- The part of the page that begins to differ between templates -->
   {{.Content}}
 </article>

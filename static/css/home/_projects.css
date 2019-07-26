@@ -2,6 +2,11 @@
   background-color: var(--white);
 }
 
+/* TODO: Make carousel */
+.ProjectCards {
+  /* display: flex; */
+}
+
 .ProjectCard {
   display: flex;
   flex-flow: column wrap;
@@ -19,10 +24,12 @@
 .ProjectCard-Text {
   border-bottom: var(--gray) solid 1px;
   padding-bottom: 1.75em;
+  max-width: 370px;
 }
 
 .ProjectCard-Text h3 {
   background: var(--linGrad-2);
+  font-weight: bold;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: capitalize;
@@ -40,7 +47,7 @@
 /* .ProjectCard-Tags a {
   content: ", ";
 } */
-.ProjectCard-Tag + .ProjectCard-Tag:before {
+.ProjectCard-Tag+.ProjectCard-Tag:before {
   font-style: normal;
   font-size: .75em;
   content: ", ";

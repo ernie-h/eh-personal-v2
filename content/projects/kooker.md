@@ -1,17 +1,20 @@
 +++
-title = "Kooker"
+title = "Kooker: A Social platform for culinary enthusiasts"
 description = "Kooker is a social media platform that connects homecooks, verified chefs, and critics, built with React and Springboot."
 date = "2018-07-06"
+author="Ernie Hao"
 categories = ["Development"]
 tags = ["React", "SpringBoot"]
 tags_weight = 1
 cardImg="/img/projects/kooker.png"
 type = "projects"
 +++
-
-Front Matter Variables 
-Predefined 
-There are a few predefined variables that Hugo is aware of. See Page Variables for how to call many of these predefined variables in your templates.
+{{< figure src="/img/projects/kooker.png" alt="Kooker hero" >}}
+{{< highlight javascript >}}
+const (x) => {
+  console.log("hello");
+};
+{{< /highlight >}}
 
 aliases
 an array of one or more aliases (e.g., old published paths of renamed content) that will be created in the output directory structure . See Aliases for details.
