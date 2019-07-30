@@ -5,7 +5,7 @@ date = "2018-07-01"
 categories = ["Development", "School"]
 tags = ["React", "SpringBoot", "NodeJS", "MEAN"]
 tags_weight = 2
-cardImg="/img/projects/whiteboard.png"
+cardImg="/img/projects/whiteboard/hero.png"
 type = "projects"
 +++
 

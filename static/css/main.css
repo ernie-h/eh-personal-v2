@@ -1,5 +1,5 @@
 @import "./_base.css";
-@import "./_common.css";
+@import "./common/_common.css";
 @import "./home/_home.css";
 
 @import "./partials/_header.css";

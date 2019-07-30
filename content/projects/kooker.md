@@ -6,7 +6,7 @@ author="Ernie Hao"
 categories = ["Development"]
 tags = ["React", "SpringBoot"]
 tags_weight = 1
-cardImg="/img/projects/kooker.png"
+cardImg="/img/projects/kooker/hero.png"
 type = "projects"
 +++
 {{< figure src="/img/projects/kooker.png" alt="Kooker hero" >}}

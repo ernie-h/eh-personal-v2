@@ -1,27 +1,39 @@
 <section class="Projects">
 	<div class="Heading">Projects</div>
-	<div class="ProjectCards">
+	<div class="Cards">
+		<!-- TODO: Remove this duplicate code, and use list.html -->
 		{{ $paginator := .Paginate (where .Pages "Type" "projects") }}
 		{{ range $paginator.Pages }}
-		<a href="{{ .URL }}">
-			<div class="ProjectCard">
-				<img src="{{.Params.cardImg }}">
-				<div class="ProjectCard-Text">
-					<h3>{{ .Title }}</h3>
-					<p>{{ .Description }}</p>
-					{{ $taxo := "tags" }}
-					<span class="ProjectCard-Tags">
-						<h5>TAGS:</h5>
-						{{ range .Param $taxo }}
-						{{ $name := . }}
-						{{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
-						<a class="ProjectCard-Tag" href="{{ .Permalink }}">{{ $name }}</a>
-						{{ end }}
-						{{ end }}
-					</span>
-				</div>
-			</div>
-		</a>
-		{{ end }}
+    <a href="{{ .URL }}">
+      <div class="Card">
+        <img src="{{.Params.cardImg }}">
+        <div class="Card-Text">
+          <h3>{{ .Title }}</h3>
+          <p>{{ .Description }}</p>
+          <!-- TODO: Simplify categories and tags -->
+          {{ $taxo := "categories" }}
+          <span class="Card-Terms">
+            <h5>CATEGORIES:</h5>
+            {{ range .Param $taxo }}
+            {{ $name := . }}
+            {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
+            <a class="Card-Category Card-Term" href="{{ .Permalink }}">{{ $name }}</a>
+            {{ end }}
+            {{ end }}
+          </span>
+          {{ $taxo := "tags" }}
+          <span class="Card-Terms">
+            <h5>TAGS:</h5>
+            {{ range .Param $taxo }}
+            {{ $name := . }}
+            {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
+            <a class="Card-Tag Card-Term" href="{{ .Permalink }}">{{ $name }}</a>
+            {{ end }}
+            {{ end }}
+          </span>
+        </div>
+      </div>
+    </a>
+    {{ end }}
 	</div>
 </section>

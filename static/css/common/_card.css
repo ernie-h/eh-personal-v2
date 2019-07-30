@@ -1,0 +1,50 @@
+/* TODO: Make carousel */
+.Cards {
+  /* display: flex; */
+}
+
+.Card {
+  display: flex;
+  flex-flow: column wrap;
+  flex-direction: row;
+  margin: 1.5em 0;
+}
+
+.Card img {
+  max-width: 300px;
+  height: auto;
+  margin: 0 32px 32px 0;
+  border-radius: 4px;
+}
+
+.Card-Text {
+  border-bottom: var(--gray) solid 1px;
+  padding-bottom: 1.75em;
+  max-width: 370px;
+}
+
+.Card-Text h3 {
+  color: var(--secCol);
+  font-weight: bold;
+  font-size: 1.5em;
+
+}
+
+.Card-Text p {
+  color: var(--mainCol--light);
+}
+
+.Card-Terms h5 {
+  margin: 1.25em 0 .75em;
+  color: var(--secCol);
+  font-size: .75em;
+}
+
+.Card-Tag {
+  background: pink;
+  font-size: .75em;
+}
+.Card-Category {
+  background: lightblue;
+  font-size: 1em;
+}

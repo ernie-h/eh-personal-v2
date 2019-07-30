@@ -8,10 +8,11 @@
 }
 
 .SkillsCard-Heading h3 {
-  background: var(--linGrad-2);
+  background: var(--secCol);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .SkillsCard ul {

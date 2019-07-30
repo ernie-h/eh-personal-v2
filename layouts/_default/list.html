@@ -1,33 +1,44 @@
 {{ define "main" }}
 <main aria-role="main">
   <article class="Content">
-    <h1 class="Heading">{{.Title}}</h1>
+    <h2 class="Heading">{{.Title}}</h2>
     <p>{{.Description}}</p>
     <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
-    {{/*  {{.Content}}  */}}
+    {{/*  {{.Content}} */}}
   </article>
   <ul class="ContentList">
     <!-- Ranges through content/posts/*.md -->
     {{ range .Pages }}
     <a href="{{ .URL }}">
-        <div class="ProjectCard">
-          <img src="{{.Params.cardImg }}">
-          <div class="ProjectCard-Text">
-            <h3>{{ .Title }}</h3>
-            <p>{{ .Description }}</p>
-            {{ $taxo := "tags" }}
-            <span class="ProjectCard-Tags">
-              <h5>TAGS:</h5>
-              {{ range .Param $taxo }}
-              {{ $name := . }}
-              {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
-              <a class="ProjectCard-Tag" href="{{ .Permalink }}">{{ $name }}</a>
-              {{ end }}
-              {{ end }}
-            </span>
-          </div>
+      <div class="Card">
+        <img src="{{.Params.cardImg }}">
+        <div class="Card-Text">
+          <h3>{{ .Title }}</h3>
+          <p>{{ .Description }}</p>
+          <!-- TODO: Simplify categories and tags -->
+          {{ $taxo := "categories" }}
+          <span class="Card-Terms">
+            <h5>CATEGORIES:</h5>
+            {{ range .Param $taxo }}
+            {{ $name := . }}
+            {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
+            <a class="Card-Category Card-Term" href="{{ .Permalink }}">{{ $name }}</a>
+            {{ end }}
+            {{ end }}
+          </span>
+          {{ $taxo := "tags" }}
+          <span class="Card-Terms">
+            <h5>TAGS:</h5>
+            {{ range .Param $taxo }}
+            {{ $name := . }}
+            {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
+            <a class="Card-Tag Card-Term" href="{{ .Permalink }}">{{ $name }}</a>
+            {{ end }}
+            {{ end }}
+          </span>
         </div>
-      </a>
+      </div>
+    </a>
     {{ end }}
   </ul>
 </main>

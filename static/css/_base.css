@@ -26,10 +26,14 @@
 }
 
 :root {
-  --mainCol: #183661;
+  /* --mainCol: #183661;
   --mainCol--light: #1c4b82;
   --secCol: #dd6b4d;
-  --secCol--light: #df9785;
+  --secCol--light: #df9785; */
+  --mainCol: #20716a;
+  --mainCol--light: #23a393;
+  --secCol: #ffc0c2;
+  --secCol--light: #f7e9e3;
 
   --linGrad-1: linear-gradient(to top right, var(--mainCol), var(--mainCol--light));
   --linGrad-webkit-1: -webkit-linear-gradient(top left, #183661, #1c4b82);
@@ -71,7 +75,7 @@ a {
 }
 
 a:hover {
-  color: var(--secCol);
+  color: var(--mainCol);
 }
 
 figure {
