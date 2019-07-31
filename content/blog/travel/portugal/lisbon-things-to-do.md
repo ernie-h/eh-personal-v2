@@ -9,6 +9,7 @@ weight = 2
 cardImg="/img/blog/travel/portugal/lisbon_hero.jpg"
 type = "blog"
 +++
+{{< figure src="/img/blog/travel/portugal/lisbon_hero.jpg" alt="lisbon hero" title="An overlook of Alfama district in Lisbon on a sky terrace July, 2019" >}}
 
 This summer my girlfriend and I had planned a Eurotrip across four different countries. The first leg of the trip was arrviing in Lisbon; one of Portugal's most historic and ancient cities. Portugal is the western-most European country with a relatively dry climate and strong sun presence, atleast during the summer. Here are some tips, locations, and advice I would like to give while travelling to Lisbon, Portugal.
 
