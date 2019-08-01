@@ -1,6 +1,8 @@
 +++
 title = "Porto: Things you should most definitely do and be aware of"
 description = "Porto was my favorite city in Portugal"
+author = "Nicole L"
+date = "2019-07-12"
 cardImg="/img/blog/travel/portugal/porto_hero.jpg"
 type = "blog"
 categories = ["travel", "portugal", "explore"]
