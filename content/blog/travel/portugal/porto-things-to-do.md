@@ -1,16 +1,16 @@
 +++
-title = "Porto: Things you should most definitely do and be aware of"
+title = "Porto: The Ultimate DOs and DON'Ts"
 description = "Porto was my favorite city in Portugal"
 author = "Nicole L"
 date = "2019-07-12"
-cardImg="/img/blog/travel/portugal/porto_hero.jpg"
+cardImg="/img/blog/travel/portugal/porto_hero.webp"
 type = "blog"
 categories = ["travel", "portugal", "explore"]
 tags = ["porto", "landmarks", "locations"]
 weight = 4
 +++
 
-{{< figure src="/img/blog/travel/portugal/porto_hero.jpg" alt="porto hero" title="The Luís the I bridge stretching over the River Douro, July, 2019" >}}
+{{< figure src="/img/blog/travel/portugal/porto_hero.webp" alt="porto hero" title="The Luís the I bridge stretching over the River Douro, July, 2019" >}}
 
 Porto is a beautiful city jam-packed with things to do and sights to see. Since Porto is a coastal city located in Northern Portugal, it tends to have a cooler climate than the country's capital, Lisbon. Full of life, friendly people, and hearty food, Porto is a must-see city when stopping by Portugal. Here are things I would've liked to know before traveling to this beautiful city.
 

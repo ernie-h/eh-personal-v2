@@ -1,33 +1,43 @@
 +++
-title = "Whiteboard"
-description = "Whiteboard is a course managing site for student and faculty members, built with React, MEAN stack, and Springboot."
+title = "Whiteboard: A Course Management Tool For Schools"
+description = "Whiteboard is a course managing tool for student and faculty members, built with React, MEAN stack, and Springboot."
 date = "2018-07-01"
-categories = ["Development", "School"]
+categories = ["Development", "School", "Project"]
 tags = ["React", "SpringBoot", "NodeJS", "MEAN"]
 tags_weight = 2
-cardImg="/img/projects/whiteboard/hero.png"
+cardImg="/img/projects/whiteboard/hero.webp"
 type = "projects"
 +++
+{{< figure src="/img/projects/whiteboard/hero.webp" alt="whiteboard hero" title="Whiteboard's faculty view for creating courses and lesson outlines (July, 2019)" >}}
 
-Front Matter Variables 
-Predefined 
-There are a few predefined variables that Hugo is aware of. See Page Variables for how to call many of these predefined variables in your templates.
+In the late Summer of 2018, I had decided to take a class that would forever change the way I viewed industry software. Up till then, I had a very academic view of computer science: ddknowledge of various algorithms and data structures, but not a solid footing on practical applicatons. Taking *Web Development*, a CS elective offered to undergrads and graduates, had opened my eyes to the amazing field and the modern day framewoks that were used by many individuals.
 
-aliases
-an array of one or more aliases (e.g., old published paths of renamed content) that will be created in the output directory structure . See Aliases for details.
-audio
-an array of paths to audio files related to the page; used by the opengraph internal template to populate og:audio.
-date
-the datetime assigned to this page. This is usually fetched from the date field in front matter, but this behaviour is configurable.
-description
-the description for the content.
-draft
-if true, the content will not be rendered unless the --buildDrafts flag is passed to the hugo command.
-expiryDate
-the datetime at which the content should no longer be published by Hugo; expired content will not be rendered unless the --buildExpired flag is passed to the hugo command.
-headless
-if true, sets a leaf bundle to be headless.
-images
-an array of paths to images related to the page; used by internal templates such as _internal/twitter_cards.html.
-isCJKLanguage
-if true, Hugo will explicitly treat the content as a CJK language; both .Summary and .WordCount work properly in CJK languages.
+**Whiteboard** was a cumalative project that each student was required to build over a span of six weekly assignments. The general deliverables were highlighted in each assignment, but the design, bonus questions, and extra features students wanted to implement were differentiating and often times rewarding factors. I believe my implementation of Whiteboard had been exceptional and the learning process eye-opening, which is what I hope to show in this project reflection.
+
+## THE BASICS
+html, css, javascript, jquery
+crud
+host heroku
+springboot service
+sql database
+
+## USER SUPPORT
+frontend build with html, css, jquery
+calls made with ajax
+springboot receives
+
+## FACULTY VIEW
+intro to react
+use react to create courses, modules, lessons, topics
+CRUD for courses
+
+## LESSON PLAN EDITING
+Add widgets for lesson plan edits e.g imgs, videos, text, headings, youtube
+
+
+## STUDENT VIEW
+Enroll/un-enroll
+express/node
+angular
+
+## REFLECTION

@@ -6,10 +6,10 @@ author="Ernie Hao"
 categories = ["Development"]
 tags = ["React", "SpringBoot"]
 tags_weight = 1
-cardImg="/img/projects/kooker/hero.png"
+cardImg="/img/projects/kooker/hero.webp"
 type = "projects"
 +++
-{{< figure src="/img/projects/kooker.png" alt="Kooker hero" >}}
+{{< figure src="/img/projects/kooker.webp" alt="Kooker hero" >}}
 {{< highlight javascript >}}
 const (x) => {
   console.log("hello");
