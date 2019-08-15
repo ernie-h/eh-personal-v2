@@ -14,20 +14,6 @@
   display: block;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: sticky;
-  width: 100%;
-  height: 60px;
-  background: var(--linGrad-1);
-  -webkit-box-shadow: 2px 9px 21px -4px #777;
-  -moz-box-shadow: 2px 9px 21px -4px #777;
-  box-shadow: 2px 9px 21px -4px #777;
-
-}
-
 .HeaderNav-Links {
   margin-right: 3em;
 }
@@ -52,11 +38,10 @@ nav {
 
 }
 
-nav a {
+.HeaderNav a {
   color: var(--secCol--light);
   text-transform: uppercase;
-  margin-right: 1em;
 }
-nav a:hover{
+.HeaderNav nav a:hover{
   color: var(--secCol);
 }

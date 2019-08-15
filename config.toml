@@ -41,12 +41,12 @@ summaryLength = 20
   [[params.skills]]
     name="FRONT-END"
     value="""
-        <li>Experienced in <b>HTML, CSS, and Javascript(ES5/ES6)</b> and tend to use these whenever possible to reduce overhead</li>
-        <li>My current front-end frameworks are <b>React</b> and <b>Hugo</b>, following the <b>JAM Stack</b> standard.<br>
-          I use React with <b>TypeScript, ReactHooks,</b> and <b> Reducers/Redux</b><br>
-          and <b>Hugo</b> for quick static site generation</li>
+        <li>Experienced in <b>HTML, CSS, and Javascript(ES5/ES6)</b> and try to use these more frequently to reduce overhead</li>
+        <li>My current front-end frameworks are <b>React</b> and <b>Hugo</b>, following the <b>JAM Stack</b> trend.
+          I use React with <b>TypeScript, Hooks,</b> and <b> Reducers/Redux</b> and <b>Hugo</b> for quick static site generation</li>
         <li>Other frameworks/libraries I use are: <b>Rails, Angular, SCSS, Contentful (CMS)</b></li>
         <li>For testing I use <b>jest, enzyme, react-testing-library</b></li>
+        <li>For analytics & A/B testing I am experienced with <b>Google Analytics, Tag Manager, Optimize, and Split</b></li>
         """
   [[params.skills]]
     name="BACK-END"
@@ -57,16 +57,16 @@ summaryLength = 20
   [[params.skills]]
     name="DATA"
     value="""
-        <li>For query languages, I use <b>SQL</b> and <b>Mongo</b></li>
-        <li>I've been experimenting with <b>TesorFlow</b> for machine-learning model training, focused on <b> text classification and summarization </b> <br>
+        <li>For DB query languages, I use <b>SQL</b> and <b>Mongo</b></li>
+        <li>I've been experimenting with <b>TesorFlow</b> for machine-learning model training, focused on <b> text classification and summarization</b>
         and <b>ElasticSearch</b> for search optimizations</li>
         """
   [[params.skills]]
     name="INFRASTRUCTURE"
     value="""
        <li>For cloud hosting services, I use <b>AWS</b> and <b>Heroku</b></li>
-       <li>For continuous deploment/integration tools, I use: <b>BuildKite and Netlify</b></li>
-       <li>For Front-end build tools I use: <b>Webpack, rollup, postCSS</b></li>
+       <li>For continuous deploment/integration tools, I use: <b>Netlify</b></li>
+       <li>For Front-end build tools I use: <b>Webpack, rollup, postCSS, and Google closure compiler</b></li>
        <li> I've been experiementing with <b>Docker</b> for containerizing large applications
         """
   

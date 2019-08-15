@@ -10,6 +10,7 @@
   -moz-box-shadow: 2px 9px 25px 6px #777;
   box-shadow: 2px 9px 25px 6px #777;
   background: var(--linGrad-2);
+  text-transform: lowercase;
 }
 
 .FooterNav :first-child {
