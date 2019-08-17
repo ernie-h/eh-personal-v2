@@ -1,6 +1,19 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <link rel="stylesheet" href="/css/main.css" type="text/css" media="all">
+  {{/*  {{ $style := resources.Get "css/main.css" | postCSS | minify | fingerprint }}  */}}
+  {{/*  {{ $cssOpts := (dict "targetPath" "styles/syntax.css") }}  */}}
+  {{ $base := resources.Get "css/_base.css" }}
+  {{ $footer := resources.Get "css/partials/_footer.css" }}
+  {{ $header := resources.Get "css/partials/_header.css" }}
+
+  {{ $home := resources.Get "css/home/_skills.css" }}
+  {{ $common := resources.Get "css/common/_content.css" }}
+  
+  {{ $style := slice $base $header $footer $home $common | resources.Concat "bundle.css" | minify }}
+  {{/*  <link rel="stylesheet" href="{{ $style.Content }}">  */}}
+  
+  <style amp-custom>{{ $style.Content | safeCSS}} </style>
+
   <script async type="module" src="/js/main.js"></script>
   <title> {{.Site.Title}} </title>
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=5.0, initial-scale=1">
