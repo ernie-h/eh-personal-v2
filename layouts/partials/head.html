@@ -6,10 +6,19 @@
   {{ $footer := resources.Get "css/partials/_footer.css" }}
   {{ $header := resources.Get "css/partials/_header.css" }}
 
-  {{ $home := resources.Get "css/home/_skills.css" }}
-  {{ $common := resources.Get "css/common/_content.css" }}
+  {{ $skills := resources.Get "css/home/_skills.css" }}
+  {{ $projects := resources.Get "css/home/_projects.css" }}
+  {{ $home := resources.Get "css/home/_home.css" }}
+  {{ $hero := resources.Get "css/home/_hero.css" }}
+  {{ $facts := resources.Get "css/home/_facts.css" }}
+  {{ $contact := resources.Get "css/home/_contact.css" }}
+
+  {{ $content := resources.Get "css/common/_content.css" }}
+  {{ $card := resources.Get "css/common/_card.css" }}
+  {{ $common := resources.Get "css/common/_common.css" }}
+
   
-  {{ $style := slice $base $header $footer $home $common | resources.Concat "bundle.css" | minify }}
+  {{ $style := slice $base $header $footer $skills $projects $home $hero $facts $contact $content $card $common | resources.Concat "bundle.css" | minify | fingerprint }}
   {{/*  <link rel="stylesheet" href="{{ $style.Content }}">  */}}
   
   <style amp-custom>{{ $style.Content | safeCSS}} </style>
