@@ -5,24 +5,17 @@
   {{ $base := resources.Get "css/_base.css" }}
   {{ $footer := resources.Get "css/partials/_footer.css" }}
   {{ $header := resources.Get "css/partials/_header.css" }}
-
   {{ $skills := resources.Get "css/home/_skills.css" }}
   {{ $projects := resources.Get "css/home/_projects.css" }}
   {{ $home := resources.Get "css/home/_home.css" }}
   {{ $hero := resources.Get "css/home/_hero.css" }}
   {{ $facts := resources.Get "css/home/_facts.css" }}
   {{ $contact := resources.Get "css/home/_contact.css" }}
-
   {{ $content := resources.Get "css/common/_content.css" }}
   {{ $card := resources.Get "css/common/_card.css" }}
   {{ $common := resources.Get "css/common/_common.css" }}
-
-  
   {{ $style := slice $base $header $footer $skills $projects $home $hero $facts $contact $content $card $common | resources.Concat "bundle.css" | minify | fingerprint }}
-  {{/*  <link rel="stylesheet" href="{{ $style.Content }}">  */}}
-  
-  <style amp-custom>{{ $style.Content | safeCSS}} </style>
-
+  <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" | safeCSS>
   <script async type="module" src="/js/main.js"></script>
   <title> {{.Site.Title}} </title>
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=5.0, initial-scale=1">
