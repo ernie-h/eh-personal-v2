@@ -24,16 +24,23 @@ scroller.setup({
 })
   .onStepEnter(response => {
     if (response.direction === 'down') {
-      console.log("enter")
-      // response.element.style.opacity = 1;
+      console.log("enter down")
       d3.select(".mapCircle")
       .transition()
-      .duration(8000)
-      .attr("cx", 200);
+      .duration(2000)
+      .attr("opacity", 1);
     }
   })
   .onStepExit(response => {
-    if (response.direction === 'up') {
+    if (response.direction === 'down') {
+      console.log(response)
+      console.log("exit down")
+      // d3.select(".mapCircle")
+      // .transition()
+      // .duration(2000)
+      // .attr("opacity", 0)
+    }
+    else if (response.direction === 'up') {
       console.log("exit")
       // response.element.style.opacity = 0;
     }
