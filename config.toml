@@ -8,6 +8,8 @@ description = "A personal site to showcase my software development journey"
 paginate = 10
 summaryLength = 20
 
+# assetDir="/static/*"
+
 # MENU
 [menu]
   [[menu.main]]
