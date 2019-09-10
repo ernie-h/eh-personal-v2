@@ -1,20 +1,26 @@
-.hkpVis-section {
-    position: relative;
-    background: lightblue;
-    opacity: 0;
-    height: 800px;
-    margin: 0;
-    transition: ease-in-out 500ms;
+
+.hkpVis-container {
+	margin: 10em 0;
+}
+.hkpVis-main {
+	position: relative;
 }
 
 #hkpVis-map {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+	position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
-.hkpVis-mapCircle {
-    position: absolute;
-    z-index: 1;
+.hkpVis-trigger {
+	height: 500px;
+  transition: ease-in-out 500ms;
+}
+.hkpVis-spacing {
+	height: 50px;
 }
 
+#hkpVis-map circle {
+	/* transition-timing-function: ease-out;
+  transition: 0.25s; */
+}
