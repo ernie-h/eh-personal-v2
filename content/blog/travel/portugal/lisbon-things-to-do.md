@@ -27,7 +27,7 @@ If you're staying around Rossio Station or a few blocks away, most places are ea
 
 ## LOCAL ETIQUETTE
 
-Most Portuguese locals in Lisbon were quite nice, but they were also quite direct. If you are going to a busy shop or restaurant, be sure to know what you want ahead of time and order fast as they can be quite direct with you. Also we noticed this in Lisbon, but being Asian (can't speak on behalf of other races) be prepared for the occassional stares and *ni haos* they throw at you, and try not to take too much offense. I know I did and it ain't worth it.
+Most Portuguese locals in Lisbon were quite nice, but they were also quite direct. If you are going to a busy shop or restaurant, be sure to know what you want ahead of time and order fast as they can be quite direct with you. Also we noticed this in Lisbon, but being Asian (can't speak on behalf of other races) be prepared for the occassional stares and *ni haos* and try not to take too much offense.
 
 ## TOURIST DENSITY / PROTECTION
 
