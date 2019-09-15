@@ -9,6 +9,7 @@
   <ul class="ContentList">
     <!-- Ranges through content/posts/*.md -->
     {{ range .Pages }}
+    {{ if .Params.showPost}}
     <a href="{{ .URL }}">
       <div class="Card">
         <img src="{{.Params.cardImg }}">
@@ -39,6 +40,7 @@
         </div>
       </div>
     </a>
+    {{ end }}
     {{ end }}
   </ul>
 </main>

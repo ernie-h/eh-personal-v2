@@ -365,7 +365,7 @@ None
 
 ## Day 31: 27th July, 2018
 #### **Thoughts:**
-Woke up late and bought pho for babe. Went to tutor hours and did quite a bit of
+Woke up late and bought pho for N. Went to tutor hours and did quite a bit of
 work. Learned how redux works
 
 #### **Blockers:**
@@ -403,7 +403,7 @@ That midterm that creeped up on me.
 ## Day 34: 30th July, 2018
 #### **Thoughts:**
 Finished midterm and worked on assignment. Woke up hella early to do it.
-Got incredibly tired. Made babe really unhappy by being indecisive and not being
+Got incredibly tired. Made N really unhappy by being indecisive and not being
 punctual. I friggin made her cook for me and I was not on time cause i was too
 distracted being a man-child. Sighhhhhh. get yo shit together.
 
@@ -416,7 +416,7 @@ distracted being a man-child. Sighhhhhh. get yo shit together.
 ## Day 35: 31st July, 2018
 #### **Thoughts:**
 Finished most of assignment/styling. Seems to be working fine, especially save.
-Babe still incredibly angry at me :angry:
+N still incredibly angry at me :angry:
 Got to chill with Dchou and cool off.
 
 #### **Blockers:**
@@ -429,7 +429,7 @@ Got to chill with Dchou and cool off.
 #### **Thoughts:**
 Submitted my project and tried to do the Google custom search API insert. Didn't
 really work, but bonus questions can be completed later on in the semester.
-Talked with babe about everything and worked it out. Babe is BACK!
+Talked with N about everything and worked it out. N is BACK!
 
 #### **Blockers:**
 - Nan
@@ -449,7 +449,7 @@ Try to get super far with angular.
 
 ## Day 36: 3rd August, 2018
 #### **Thoughts:**
-Worked a lot in snell with babe. Went to second floor and it was actually great.
+Worked a lot in snell with N. Went to second floor and it was actually great.
 Got my own monitor. Got started on front/back end and familiar with how
 the MEAN :mean: stack collaborate together.
 
@@ -514,7 +514,7 @@ Going to be a lot happening this week
 ## Day 42: 9th August, 2018
 #### **Thoughts:**
 Felt really off today, definitely me not sleeping enough. Took a nap but still
-felt hella werid. Went to md with babe and had a very awkward dinner next to irina.
+felt hella werid. Went to md with N and had a very awkward dinner next to irina.
 
 #### **Blockers:**
 - A lot of stuff
@@ -561,7 +561,7 @@ Took :mushroom: for the first time and realized how beautiful the world was. Til
 ## Day 59: 25th August, 2018
 #### **Thoughts:**
 Today Cameron left and I had to wake up at 9:00 to help him do the laundry, anything for you my man.
-After I went back to sleep and went to Masa in South End for brunch with babe. We then trekked to a nearby
+After I went back to sleep and went to Masa in South End for brunch with N. We then trekked to a nearby
 Starbucks and worked for a couple hours. I was able to purchase the domain name **www.erniehao.com** from Google,
 and redirect **erniehao.com** to my static site hosted by AWS s3. Got the site to work, and the general layout figured out.
 Just need to get the content.

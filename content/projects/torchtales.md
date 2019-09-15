@@ -7,6 +7,7 @@ categories = ["development", "school", "project"]
 tags = ["GameSalad", "Photoshop"]
 cardImg="/img/projects/torchtales/hero.webp"
 type = "projects"
+showPost="true"
 +++
 
 {{< figure src="/img/projects/torchtales/hero.webp" alt="Torchtales hero" title="Torchtales game lauch ad (May 2016)">}}

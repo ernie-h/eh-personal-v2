@@ -54,21 +54,19 @@ summaryLength = 20
     name="BACK-END"
     value="""<li>Experienced with <b>Java, Javascript, Python, and C</b> for back-end development </li>
         <li>Frameworks I use for API development are: <b>Node.js, Express, Springboot</b></li>
-        <li>I've been experimenting with: <b>Go, Rust</b> and <b>GraphQL</b> for faster service layer development</li>
+        <li>I've been actiely picking up<b>Go</b></li>
         """
   [[params.skills]]
     name="DATA"
     value="""
         <li>For DB query languages, I use <b>SQL</b> and <b>Mongo</b></li>
-        <li>I've been experimenting with <b>TesorFlow</b> for machine-learning model training, focused on <b> text classification and summarization</b>
-        and <b>ElasticSearch</b> for search optimizations</li>
+        <li>I've been experimenting with <b>TesorFlow</b> for machine-learning model training </li>
         """
   [[params.skills]]
     name="INFRASTRUCTURE"
     value="""
        <li>For cloud hosting services, I use <b>AWS</b> and <b>Heroku</b></li>
        <li>For continuous deploment/integration tools, I use: <b>Netlify</b></li>
-       <li>For Front-end build tools I use: <b>Webpack, rollup, postCSS, and Google closure compiler</b></li>
-       <li> I've been experiementing with <b>Docker</b> for containerizing large applications
+       <li>For Front-end build tools I use: <b>Webpack, postCSS, and Google closure compiler</b></li>
         """
   

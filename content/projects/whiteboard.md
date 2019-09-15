@@ -1,14 +1,18 @@
 +++
 title = "Whiteboard: A Course Management Tool For Schools"
 description = "Whiteboard is a course managing tool for student and faculty members, built with React, MEAN stack, and Springboot."
+author = "Ernie Hao"
 date = "2018-07-01"
 categories = ["Development", "School", "Project"]
 tags = ["React", "SpringBoot", "NodeJS", "MEAN"]
 tags_weight = 2
 cardImg="/img/projects/whiteboard/hero.webp"
 type = "projects"
+showPost="true"
 +++
 {{< figure src="/img/projects/whiteboard/hero.webp" alt="whiteboard hero" title="Whiteboard's faculty view for creating courses and lesson outlines (July, 2019)" >}}
+
+# WORK IN PROGRESS
 
 In the late Summer of 2018, I had decided to take a class that would forever change the way I viewed industry software. Up till then, I had a very academic view of computer science: ddknowledge of various algorithms and data structures, but not a solid footing on practical applicatons. Taking *Web Development*, a CS elective offered to undergrads and graduates, had opened my eyes to the amazing field and the modern day framewoks that were used by many individuals.
 

@@ -3,7 +3,8 @@
 	<div class="Cards">
 		<!-- TODO: Remove this duplicate code, and use list.html -->
 		{{ $paginator := .Paginate (where .Pages "Type" "projects") }}
-		{{ range $paginator.Pages }}
+    {{ range $paginator.Pages }}
+    {{ if .Params.showPost}}
     <a href="{{ .URL }}">
       <div class="Card">
         <img src="{{.Params.cardImg }}">
@@ -34,6 +35,7 @@
         </div>
       </div>
     </a>
+    {{ end }}
     {{ end }}
 	</div>
 </section>
