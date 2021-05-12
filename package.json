@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/ernie-h/eh-personal-v2#readme",
   "dependencies": {
-    "postcss": "^7.0.17"
+    "postcss": "^8.2.10"
   }
 }
