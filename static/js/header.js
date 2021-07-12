@@ -1,4 +1,5 @@
 window.addEventListener('scroll', function (e) {
+  if(!document.querySelector(".Hero")) return;
   if (window.scrollY >= document.querySelector(".Hero").scrollHeight) {
     document.querySelector("nav").classList.add('HeaderNav--fixed');
     // document.querySelector("nav div").classList.add('visible-logo');

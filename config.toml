@@ -1,8 +1,8 @@
 # MAIN
 baseURL = "/"
 languageCode = "en-us"
-title = "Ernie Hao"
-description = "A personal site to showcase my software development journey"
+title = "Ernie Hao | Software Engineer"
+description = "A personal site showcasing my software development journey"
 
 # CONTENT
 paginate = 10
