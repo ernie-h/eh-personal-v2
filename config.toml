@@ -66,5 +66,6 @@ summaryLength = 20
        <li>For infrastructures services, I use <b>AWS, Heroku</b> and <b>Netlify</b></li>
          <li>For testing I use <b>jest, react-testing-library</b></li>
         <li>For analytics & A/B testing I use <b>Google Analytics, Tag Manager, Optimize, and Split</b></li>
+        <li>For metrics and monitoring I use <b>Grafana</b> and <b>Sentry</b></li>
         """
   

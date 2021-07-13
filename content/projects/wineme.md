@@ -1,12 +1,12 @@
 +++
-title = "Kooker: A Social platform for culinary enthusiasts"
-description = "Kooker is a social media platform that connects homecooks, verified chefs, and critics, built with React and Springboot."
-date = "2018-07-06"
+title = "WineMe: What wine tastes suit you?"
+description = "WineMe is a platform where users answer a few simple questions and their preferred wine tastes are found, built with React, Springboot, and mySQL."
+date = "2019-10-15"
 author="Ernie Hao"
-categories = ["Development"]
-tags = ["React", "SpringBoot"]
+categories = ["Development", "School","Data", "Web"]
+tags = ["React", "SpringBoot","MySQL"]
 tags_weight = 1
-cardImg="/img/projects/kooker/hero.webp"
+cardImg="/img/projects/wineme/wineme.png"
 showPost="true"
 type = "projects"
 
@@ -14,7 +14,7 @@ type = "projects"
 
 {{< figure src="/img/projects/kooker/hero.webp" alt="Kooker hero" >}}
 
-TorchTales brings back fond memories of my last high school years and the onset of my interest in tech. Back then I had known ```nil``` about programming. All I had was a raw passion to create and learn, with the limited knowledge I possessed.
+TorchTales brings back fond memories of my last high school years and the onset of my interest in tech. Back then I had known `nil` about programming. All I had was a raw passion to create and learn, with the limited knowledge I possessed.
 
 In my high school, all graduating seniors were required to complete a senior project that would be their culminating assignment on anything they wanted. I wanted to create a mobile game of my high school administration, which would feature inside jokes and possibly controversial jabs at school policies at the time. I asked two of my peers, Matt and Nicole, good friends and future computer science undergrads to join me. They were excited.
 
@@ -40,7 +40,7 @@ I took charge of design as I had experience with Photoshop and had a more comple
 
 {{< figure src="/img/projects/torchtales/marketing.webp" alt="marketing hero" title="Our Facebook page that publicized our game and launched on going campaign ads (May 2016)">}}
 
-Nicole took charge of the marketing and legality of our application. Having formerly interned at a law firm's enginerring team, she was excited to take on the role and get our app out into the public. She had quickly put together a site with Wix and secured a domain for our company name, __**Swfit Cup'O Java**__, which was based on the tech stack we intended to use. We then set up a facebook page and invited our whole High School community to the page and started a campaign with subsequent ads prior to our launch. Nicole was also in charge of exploring the viability of getting our game on the iOS app store before our deadline.
+Nicole took charge of the marketing and legality of our application. Having formerly interned at a law firm's enginerring team, she was excited to take on the role and get our app out into the public. She had quickly put together a site with Wix and secured a domain for our company name, ****Swfit Cup'O Java****, which was based on the tech stack we intended to use. We then set up a facebook page and invited our whole High School community to the page and started a campaign with subsequent ads prior to our launch. Nicole was also in charge of exploring the viability of getting our game on the iOS app store before our deadline.
 
 ## REFLECTION
 

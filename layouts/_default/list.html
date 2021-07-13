@@ -4,18 +4,19 @@
     <h2 class="Heading">{{.Title}}</h2>
     <p>{{.Description}}</p>
     <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
-    {{/*  {{.Content}} */}}
+    {{/* {{.Content}} */}}
   </article>
   <ul class="ContentList">
     <!-- Ranges through content/posts/*.md -->
     {{ range .Pages }}
     {{ if .Params.showPost}}
-    <a href="{{ .URL }}">
+    <a href="{{ .Permalink }}">
       <div class="Card">
-        <img src="{{.Params.cardImg }}">
+        <img src="{{.Params.cardImg }}" loading="lazy" alt="{{ .Params.cardImg }}">
         <div class="Card-Text">
           <h3>{{ .Title }}</h3>
           <p>{{ .Description }}</p>
+          <span>Posted: <time>{{.Date.Format "Jan 02, 2006"}}</time></span>
           <!-- TODO: Simplify categories and tags -->
           {{ $taxo := "categories" }}
           <span class="Card-Terms">

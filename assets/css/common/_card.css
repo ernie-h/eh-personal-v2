@@ -27,22 +27,25 @@
   color: var(--secCol);
   font-weight: bold;
   font-size: 1.5em;
-
 }
 
 .Card-Text p {
   color: var(--mainCol--light);
 }
 
+.Card-Text span {
+  color: gray;
+}
+
 .Card-Terms h5 {
-  margin: 1.25em 0 .75em;
+  margin: 1.25em 0 0.75em;
   color: var(--secCol);
-  font-size: .75em;
+  font-size: 0.75em;
 }
 
 .Card-Tag {
   background: pink;
-  font-size: .75em;
+  font-size: 0.75em;
 }
 .Card-Category {
   background: lightblue;
