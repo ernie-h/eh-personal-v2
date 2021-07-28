@@ -1,42 +1,48 @@
 <section class="Projects">
-  <div class="Heading">Projects</div>
-  <div class="Cards">
-    <!-- TODO: Remove this duplicate code, and use list.html -->
-    {{ $paginator := .Paginate (where .Pages "Type" "projects") }}
-    {{ range $paginator.Pages }}
-    {{ if .Params.showPost}}
-    <a href="{{ .Permalink }}">
+  {{ range .Pages.GroupBy "Section" }}
+  <ul>
+    <div class="Heading">{{ .Key}}</div>
+    {{ range .Pages }}
+    <div class="Cards">
+      <!-- TODO: Remove this duplicate code, and use list.html -->
+      {{ $paginator := .Paginate .Pages }}
+      {{ range $paginator.Pages }}
+      {{ if .Params.showPost}}
       <div class="Card">
-        <img src="{{.Params.cardImg }}" alt="{{.Params.cardImg }}">
-        <div class="Card-Text">
-          <h3>{{ .Title }}</h3>
-          <time>{{.Date.Format "Jan 02, 2006"}}<time>
-              <p>{{ .Description }}</p>
-              <!-- TODO: Simplify categories and tags -->
-              {{ $taxo := "categories" }}
-              <span class="Card-Terms">
-                <h5>CATEGORIES:</h5>
-                {{ range .Param $taxo }}
-                {{ $name := . }}
-                {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
-                <a class="Card-Category Card-Term" href="{{ .Permalink }}">{{ $name }}</a>
-                {{ end }}
-                {{ end }}
-              </span>
-              {{ $taxo := "tags" }}
-              <span class="Card-Terms">
-                <h5>TAGS:</h5>
-                {{ range .Param $taxo }}
-                {{ $name := . }}
-                {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
-                <a class="Card-Tag Card-Term" href="{{ .Permalink }}">{{ $name }}</a>
-                {{ end }}
-                {{ end }}
-              </span>
-        </div>
+        <a href="{{ .Permalink }}">
+          <img src="{{.Params.cardImg }}" alt="{{.Params.cardImg }}">
+          <div class="Card-Text">
+            <h3>{{ .Title }}</h3>
+            <time>{{.Date.Format "Jan 02, 2006"}}<time>
+                <p>{{ .Description }}</p>
+                <!-- TODO: Simplify categories and tags -->
+                {{ $taxo := "categories" }}
+                <span class="Card-Terms">
+                  <h5>CATEGORIES:</h5>
+                  {{ range .Param $taxo }}
+                  {{ $name := . }}
+                  {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
+                  <a class="Card-Category Card-Term" href="{{ .Permalink }}">{{ $name }}</a>
+                  {{ end }}
+                  {{ end }}
+                </span>
+                {{ $taxo := "tags" }}
+                <span class="Card-Terms">
+                  <h5>TAGS:</h5>
+                  {{ range .Param $taxo }}
+                  {{ $name := . }}
+                  {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
+                  <a class="Card-Tag Card-Term" href="{{ .Permalink }}">{{ $name }}</a>
+                  {{ end }}
+                  {{ end }}
+                </span>
+          </div>
+        </a>
       </div>
-    </a>
+      {{ end }}
+      {{ end }}
+    </div>
     {{ end }}
-    {{ end }}
-  </div>
+  </ul>
+  {{ end }}
 </section>

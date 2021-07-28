@@ -24,7 +24,16 @@
   font-style: normal;
   font-display: fallback;
 }
-
+@custom-media --breakpoint--xs--down (max-width: 425px);
+@custom-media --breakpoint--xs--up (min-width: 425px);
+@custom-media --breakpoint--s--down (max-width: 640px);
+@custom-media --breakpoint--s--up (min-width: 640px);
+@custom-media --breakpoint--m--down (max-width: 740px);
+@custom-media --breakpoint--m--up (min-width: 740px);
+@custom-media --breakpoint--l--down (max-width: 1024px);
+@custom-media --breakpoint--l--up (min-width: 1024px);
+@custom-media --breakpoint--xl--down (max-width: 1220px);
+@custom-media --breakpoint--xl--up (min-width: 1220px);
 :root {
   /* --mainCol: #183661;
   --mainCol--light: #1c4b82;
@@ -35,15 +44,22 @@
   --secCol: #ffc0c2;
   --secCol--light: #f7e9e3;
 
-  --linGrad-1: linear-gradient(to top right, var(--mainCol), var(--mainCol--light));
+  --linGrad-1: linear-gradient(
+    to top right,
+    var(--mainCol),
+    var(--mainCol--light)
+  );
   --linGrad-webkit-1: -webkit-linear-gradient(top left, #183661, #1c4b82);
-  --linGrad-2: linear-gradient(to top right, var(--secCol), var(--secCol--light));
+  --linGrad-2: linear-gradient(
+    to top right,
+    var(--secCol),
+    var(--secCol--light)
+  );
 
   --gray: #dae1e7;
   --white: #ffffff;
   --font: "Roboto", sans-serif;
 }
-
 
 html,
 body {
@@ -62,7 +78,6 @@ h5 {
   margin: 0 auto;
   font-weight: normal;
   line-height: 1.25em;
-
 }
 
 p {
@@ -83,11 +98,9 @@ figure {
 }
 
 main {
-  width: 80%;
+  margin: 1rem auto;
+  padding: 0 2rem;
   max-width: 710px;
-  margin: 4rem auto;
-  word-wrap: break-word;
-  min-height: 70vh;
 }
 
 section {

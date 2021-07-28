@@ -35,13 +35,19 @@
   width: 198px;
   height: 198px;
   transform: rotate(90deg);
-
 }
 
 .HeaderNav a {
   color: var(--secCol--light);
   text-transform: uppercase;
 }
-.HeaderNav nav a:hover{
+.HeaderNav nav a:hover {
   color: var(--secCol);
+}
+
+/* TODO: Do hamburger menu */
+@media (max-width: 740px) {
+  .HeaderNav-Links {
+    display: none;
+  }
 }

@@ -1,3 +1,21 @@
 .Projects {
+  margin: 1rem auto;
+  padding: 0 2rem;
+  max-width: 1220px;
+  display: flex;
+  justify-content: space-around;
   background-color: var(--white);
+}
+.Projects ul {
+  padding: 0;
+}
+
+.Projects .Card {
+  display: block;
+}
+
+@media (max-width: 740px) {
+  .Projects {
+    flex-direction: column;
+  }
 }

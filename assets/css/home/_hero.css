@@ -6,10 +6,9 @@
 }
 
 .HeroHeading {
-  width: 80%;
-  max-width: 710px;
-  margin: 0 auto;
-  word-wrap: break-word;
+  margin: 1rem auto;
+  padding: 0 2rem;
+  min-width: 710px;
 }
 
 .HeroHeading h1 {
@@ -19,7 +18,6 @@
 
 .HeroHeading h1:last-of-type {
   color: var(--mainCol--light);
-  ;
 }
 
 .HeroHeading h3 {
