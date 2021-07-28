@@ -5,6 +5,7 @@ date="2019-07-30"
 author="Ernie Hao"
 cardImg="/img/blog/travel/portugal/duoro_hero.webp"
 type = "blog"
+showPost=true
 categories = ["reflection", "development"]
 tags = ["log", "funny"]
 +++
@@ -391,7 +392,7 @@ important it was to have an education and the value of hard work. #facts :hammer
 ## Day 33: 29th July, 2018
 #### **Thoughts:**
 Worked over 8 hrs today at cafe nero. Finished most of the assignment, studied
-a lot of marketing, and the wireframes for the project. So fucking tired.
+a lot of marketing, and the wireframes for the project. So tired.
 
 #### **Blockers:**
 That midterm that creeped up on me.
