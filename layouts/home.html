@@ -8,8 +8,8 @@
   <!-- TODO: Temporary to show blog posts next to -->
   <div class="Cards">
     <!-- TODO: Remove this duplicate code, and use list.html -->
-    {{ $paginator := .Paginate (where .Pages "Type" "blog") }}
-    {{ range $paginator.Pages }}
+    {{ $paginatorBlog := .Paginate (where .Pages "Type" "blog") }}
+    {{ range $paginatorBlog.Pages }}
     {{ if .Params.showPost}}
     <a href="{{ .Permalink }}">
       <div class="Card">
