@@ -5,10 +5,11 @@ date = "2019-07-08"
 author="Ernie Hao"
 categories = ["travel", "portugal", "explore"]
 tags = ["lisbon", "landmarks", "locations", "eurotrip2019"]
-weight = 2
 cardImg="/img/blog/travel/portugal/lisbon_hero.webp"
 type = "blog"
+showPost=false
 +++
+
 {{< figure src="/img/blog/travel/portugal/lisbon_hero.webp" alt="lisbon hero" title="An overlook of Alfama district in Lisbon on a sky terrace July, 2019" >}}
 
 This summer my girlfriend and I had planned a Eurotrip across four different countries. The first leg of the trip was arrviing in Lisbon; one of Portugal's most historic and ancient cities. Portugal is the western-most European country with a relatively dry climate and strong sun presence, atleast during the summer. Here are some tips, locations, and advice I would like to give while travelling to Lisbon, Portugal.
@@ -27,13 +28,14 @@ If you're staying around Rossio Station or a few blocks away, most places are ea
 
 ## LOCAL ETIQUETTE
 
-Most Portuguese locals in Lisbon were quite nice, but they were also quite direct. If you are going to a busy shop or restaurant, be sure to know what you want ahead of time and order fast as they can be quite direct with you. Also we noticed this in Lisbon, but being Asian (can't speak on behalf of other races) be prepared for the occassional stares and *ni haos* and try not to take too much offense.
+Most Portuguese locals in Lisbon were quite nice, but they were also quite direct. If you are going to a busy shop or restaurant, be sure to know what you want ahead of time and order fast as they can be quite direct with you. Also we noticed this in Lisbon, but being Asian (can't speak on behalf of other races) be prepared for the occassional stares and _ni haos_ and try not to take too much offense.
 
 ## TOURIST DENSITY / PROTECTION
 
 During peak tourist season, Lisbon didn't have as many tourists as Florence or Barcelona, but still a decent chunk. Most tourists were from the States and a moderate amount from China and Korea. Lisbon didn't feel as thefty as Barcelona, but still use common sense when visiting touristy areas. Bags in front, nothing in back pockets.
 
 ## SOUVENIRS
+
 A lot of stores sold tile designed magnets, reflective of the Portuguese tiles found throughout the city. You should spend at max **1 Euro** on this souvenir as this was the cheapest we could find. There were some very ugly ones, with weird prints and fonts, but there were also some incredible gems, as pictured above. Other notable souvenirs include fish ceramics (reflective of Portugal's proximity to the sea), actual ceramic tiles, and famous Portuguese sardines.
 
 # ATTRACTIONS
@@ -41,6 +43,7 @@ A lot of stores sold tile designed magnets, reflective of the Portuguese tiles f
 ## HIGHEST LOOKOUT POINT
 
 ## ALFAMA DISTRICT
+
 giant biblotheca
 
 ## CASTLE SAO JORGE

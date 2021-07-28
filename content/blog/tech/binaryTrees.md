@@ -10,4 +10,4 @@ categories = ["tech"]
 tags = ["tree", "javascript", "recursion", "traversal"]
 +++
 
-{{< figure src="/img/blog/tech/binarytree.jpg" alt="binary tree example" title="An example of a binary search tree (source: Harish Reddy Konduru, Apr 20, 2020)" >}}
+{{< figure src="/img/blog/tech/binaryTree.jpg" alt="binary tree example" title="An example of a binary search tree (source: Harish Reddy Konduru, Apr 20, 2020)" >}}

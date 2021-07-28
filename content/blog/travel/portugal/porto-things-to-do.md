@@ -7,7 +7,6 @@ cardImg="/img/blog/travel/portugal/porto_hero.webp"
 type = "blog"
 categories = ["travel", "portugal", "explore"]
 tags = ["porto", "landmarks", "locations"]
-weight = 4
 +++
 
 {{< figure src="/img/blog/travel/portugal/porto_hero.webp" alt="porto hero" title="The Luís the I bridge stretching over the River Douro, July, 2019" >}}
