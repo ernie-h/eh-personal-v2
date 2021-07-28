@@ -1,6 +1,6 @@
 +++
 title = "React hooks, why?"
-description = "Me making sense of why React hooks are better"
+description = "Me making sense of why React hooks are better, cliffnotes version"
 cardImg="/img/blog/tech/reactHooksVsLifeCycle.jpg"
 date="2021-07-27"
 author="Me"
