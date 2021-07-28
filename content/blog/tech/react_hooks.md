@@ -157,3 +157,10 @@ const Component = () => {
   return <h1>Hello World</h1>;
 };
 ```
+
+
+### Sources
+https://blog.carbonfive.com/replacing-component-lifecycle-methods-with-react-hooks/
+https://reactjs.org/docs/hooks-intro.html#its-hard-to-reuse-stateful-logic-between-components
+https://www.toptal.com/javascript/es6-class-chaos-keeps-js-developer-up
+https://javascript.plainenglish.io/lifecycle-methods-substitute-with-react-hooks-b173073052a
