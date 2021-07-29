@@ -6,8 +6,8 @@
     <div class="Cards">
       <!-- TODO: Remove this duplicate code, and use list.html -->
       <!-- {{ $paginator := .Paginate .Pages }} -->
-      {{ range  .Paginator.Pages }}
-      {{ if .Params.showPost}}
+      {{ range .Paginator.Pages }}
+      <!-- {{ if .Params.showPost}} -->
       <div class="Card">
         <a href="{{ .Permalink }}">
           <img src="{{.Params.cardImg }}" alt="{{.Params.cardImg }}">
@@ -39,7 +39,7 @@
           </div>
         </a>
       </div>
-      {{ end }}
+      <!-- {{ end }} -->
       {{ end }}
     </div>
     {{ end }}
