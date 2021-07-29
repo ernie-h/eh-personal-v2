@@ -1,8 +1,8 @@
 <section class="Projects">
-  {{ range .Pages.GroupBy "Section" }}
+  <!-- {{ range .Pages.GroupBy "Section" }} -->
   <ul>
     <div class="Heading">{{ .Key}}</div>
-    {{ range .Pages }}
+    <!-- {{ range .Pages }} -->
     <div class="Cards">
       <!-- TODO: Remove this duplicate code, and use list.html -->
       <!-- {{ $paginator := .Paginate .Pages }} -->
@@ -42,7 +42,7 @@
       <!-- {{ end }} -->
       {{ end }}
     </div>
-    {{ end }}
+    <!-- {{ end }} -->
   </ul>
-  {{ end }}
+  <!-- {{ end }} -->
 </section>
