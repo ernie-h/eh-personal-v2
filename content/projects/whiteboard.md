@@ -7,7 +7,6 @@ categories = ["Development", "School", "Project"]
 tags = ["React", "SpringBoot", "NodeJS", "MEAN"]
 tags_weight = 2
 cardImg="/img/projects/whiteboard/hero.webp"
-type = "projects"
 showPost="true"
 +++
 {{< figure src="/img/projects/whiteboard/hero.webp" alt="whiteboard hero" title="Whiteboard's faculty view for creating courses and lesson outlines (July, 2019)" >}}

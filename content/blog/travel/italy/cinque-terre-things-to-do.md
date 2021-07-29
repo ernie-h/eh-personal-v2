@@ -6,7 +6,6 @@ author="Ernie Hao"
 categories = ["travel", "italy", "explore"]
 tags = ["cinque terre", "landmarks", "locations", "eurotrip2019"]
 cardImg="/img/blog/travel/italy/ct_hero.webp"
-type = "blog"
 +++
 {{< figure src="/img/blog/travel/italy/ct_hero.webp" alt="cinque terre hero" title="An overlook of third city of Cinque Terre, Vernazza (July, 2019)" >}}
 

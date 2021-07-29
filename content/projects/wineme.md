@@ -8,7 +8,6 @@ tags = ["React", "SpringBoot","MySQL"]
 tags_weight = 1
 cardImg="/img/projects/wineme/wineme.png"
 showPost="true"
-type = "projects"
 
 +++
 

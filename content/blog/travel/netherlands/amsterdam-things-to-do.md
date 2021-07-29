@@ -6,6 +6,5 @@ author="Ernie Hao"
 categories = ["travel", "netherlands", "explore"]
 tags = ["amsterdam", "landmarks", "locations", "eurotrip2019"]
 cardImg="/img/blog/travel/netherlands/ams_hero.webp"
-type = "blog"
 +++
 {{< figure src="/img/blog/travel/netherlands/ams_hero.webp" alt="amsterdam hero" title="A ferry bringing visitors across a popular canal in the city center (July, 2019)" >}}

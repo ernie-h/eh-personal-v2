@@ -6,7 +6,6 @@ author = "Ernie Hao"
 date = "2018-08-01"
 categories = ["development", "reflection"]
 tags = ["placepass", "co-op", "work"]
-type = "blog"
 showPost="true"
 +++
 

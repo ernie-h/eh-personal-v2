@@ -4,7 +4,6 @@ description = "A personal experience..."
 cardImg="/img/blog/reflection/albinoChimps.jpg"
 date="2019-12-26"
 author="Me"
-type = "blog"
 showPost=true
 categories = ["reflection", "culture"]
 tags = ["asian", "racism"]

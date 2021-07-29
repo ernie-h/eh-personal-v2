@@ -8,7 +8,6 @@ tags = ["React", "SpringBoot"]
 tags_weight = 1
 cardImg="/img/projects/kooker/hero.webp"
 showPost="true"
-type = "projects"
 
 +++
 

@@ -6,6 +6,5 @@ author="Ernie Hao"
 categories = ["travel", "italy", "explore"]
 tags = ["florence", "landmarks", "locations", "eurotrip2019"]
 cardImg="/img/blog/travel/italy/florence_hero.webp"
-type = "blog"
 +++
 {{< figure src="/img/blog/travel/italy/florence_hero.webp" alt="florence hero" title="The beautiful Santa Maria Duomo located in Florence's city center (July, 2019)" >}}

@@ -6,7 +6,6 @@ author="Ernie Hao"
 categories = ["travel", "portugal", "explore"]
 tags = ["lisbon", "landmarks", "locations", "eurotrip2019"]
 cardImg="/img/blog/travel/portugal/lisbon_hero.webp"
-type = "blog"
 showPost=false
 +++
 

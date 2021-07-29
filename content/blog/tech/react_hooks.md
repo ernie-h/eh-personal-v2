@@ -5,7 +5,6 @@ cardImg="/img/blog/tech/reactHooksVsLifeCycle.jpg"
 date="2021-07-27"
 author="Me"
 showPost=true
-type = "blog"
 categories = ["tech"]
 tags = ["react", "javascript", "react hooks", "es6"]
 +++

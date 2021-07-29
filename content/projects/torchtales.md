@@ -6,7 +6,6 @@ author = "Ernie Hao"
 categories = ["development", "school", "project"]
 tags = ["GameSalad", "Photoshop"]
 cardImg="/img/projects/torchtales/hero.webp"
-type = "projects"
 showPost="true"
 +++
 

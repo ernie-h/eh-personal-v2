@@ -6,7 +6,6 @@ author = "Me"
 categories = ["development", "work", "project"]
 tags = ["pwa", "jam", "javascript","web"]
 cardImg="/img/projects/ppHack/appDownloadPrompt.png"
-type = "projects"
 showPost="true"
 +++
 {{< figure src="/img/projects/torchtales/desktopApp.webp" alt="desktop application" title="Desktopapplication  (May 2021)">}}
