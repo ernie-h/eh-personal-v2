@@ -5,67 +5,67 @@ title = "Ernie Hao | Software Engineer"
 description = "A personal site showcasing my software development journey"
 
 # CONTENT
-paginate = 10
+paginate = 20
 summaryLength = 20
+paginatePath = "page"
 
 # assetDir="/static/*"
 
 # MENU
 [menu]
-  [[menu.main]]
-      identifier="home"
-      name = "Home"
-      url  = "/"
-      weight = 1
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
 
-  [[menu.main]]
-      identifier = "projects"
-      name = "Projects"
-      url  = "/projects/"
-      weight = 2
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects/"
+weight = 2
 
-  [[menu.main]]
-      identifier="blog"
-      name = "Blog"
-      url  = "/blog/"
-      weight = 3
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/blog/"
+weight = 3
 
-  [[menu.main]]
-      identifier = "contact"
-      name = "Contact"
-      url  = "#contact"
-      weight = 4
+[[menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "#contact"
+weight = 4
 
 # PARAMS
 [params]
 
 # TODO: MOVE INTO CONTENT FILE
-  [[params.skills]]
-    name="FRONT-END"
-    value="""
+[[params.skills]]
+name = "FRONT-END"
+value = """
         <li>Experienced in <b>HTML, CSS, and Javascript(ES5/ES6)</b> and try to use these more frequently to reduce overhead</li>
         <li>My favorite front-end stack is <b>React</b> client-side and <b>Hugo</b> and <b>Deno</b> server-side.<br/>
         I use React (sparingly) with <b>TypeScript</b> and <b>Hooks</b>, <b>Deno</b> for server-side rendering/page load handiling, and <b>Hugo</b> for static site generation</li>
         <li>Other frameworks/libraries I have worked with are: <b>Rails, Angular</b></li>
         """
-  [[params.skills]]
-    name="BACK-END"
-    value="""<li>Experienced with <b>Golang, Java, Javascript,</b> and <b>Python</b> for back-end development </li>
+[[params.skills]]
+name = "BACK-END"
+value = """<li>Experienced with <b>Golang, Java, Javascript,</b> and <b>Python</b> for back-end development </li>
         <li>Frameworks I've use for API development are: <b>Node.js, Express, Springboot, Go/Python standard libraries</b> and <b>GraphQL</b></li>
         """
-  [[params.skills]]
-    name="DATA"
-    value="""
+[[params.skills]]
+name = "DATA"
+value = """
         <li>I've had most experience with RDBMS', like <b>Postgres</b> and <b>mySQL</b></li>
         <li>I've also experimented with <b>MongoDB</b></li>
 
         """
-  [[params.skills]]
-    name="OTHER"
-    value="""
+[[params.skills]]
+name = "OTHER"
+value = """
        <li>For infrastructures services, I use <b>AWS, Heroku</b> and <b>Netlify</b></li>
          <li>For testing I use <b>jest, react-testing-library</b></li>
         <li>For analytics & A/B testing I use <b>Google Analytics, Tag Manager, Optimize, and Split</b></li>
         <li>For metrics and monitoring I use <b>Grafana</b> and <b>Sentry</b></li>
         """
-  
