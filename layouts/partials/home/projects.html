@@ -5,8 +5,8 @@
     {{ range .Pages }}
     <div class="Cards">
       <!-- TODO: Remove this duplicate code, and use list.html -->
-      {{ $paginator := .Paginate .Pages }}
-      {{ range $paginator.Pages }}
+      <!-- {{ $paginator := .Paginate .Pages }} -->
+      {{ range  .Paginator.Pages }}
       {{ if .Params.showPost}}
       <div class="Card">
         <a href="{{ .Permalink }}">
