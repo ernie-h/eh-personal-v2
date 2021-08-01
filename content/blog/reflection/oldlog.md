@@ -4,7 +4,6 @@ description = "This was an old log I kept in 2018 tracking my progress on my pro
 date="2019-07-30"
 author="Ernie Hao"
 cardImg="/img/blog/travel/portugal/duoro_hero.webp"
-showPost=true
 categories = ["reflection", "development"]
 tags = ["log", "funny"]
 +++

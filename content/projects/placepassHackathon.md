@@ -8,4 +8,4 @@ tags = ["pwa", "jam", "javascript","web"]
 cardImg="/img/projects/ppHack/appDownloadPrompt.png"
 showPost="true"
 +++
-{{< figure src="/img/projects/torchtales/desktopApp.webp" alt="desktop application" title="Desktopapplication  (May 2021)">}}
+{{< figure src="/img/projects/torchtales/desktopApp.webp" alt="desktop application" title="Desktop application download prompt (May 2021)">}}
