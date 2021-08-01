@@ -3,7 +3,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Ernie Hao | Software Engineer"
 description = "A personal site showcasing my software development journey"
-
+enableRobotsTXT = true
 # CONTENT
 paginate = 20
 summaryLength = 20

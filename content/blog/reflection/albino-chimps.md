@@ -6,6 +6,7 @@ date="2019-12-26"
 author="Me"
 categories = ["reflection", "culture"]
 tags = ["asian", "racism"]
+robotsdisallow = true
 +++
 
 The time was 5:40 PM and an Asian male had just exited a state library in a Western country.
