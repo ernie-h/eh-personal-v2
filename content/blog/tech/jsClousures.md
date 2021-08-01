@@ -5,7 +5,7 @@ cardImg="/img/blog/tech/closure.jpg"
 date="2021-07-28"
 author="Me"
 showPost=true
-categories = ["tech"]
+categories = ["tech", "article"]
 tags = ["tree", "javascript", "recursion", "traversal"]
 +++
 

@@ -6,14 +6,5 @@
   {{ partial "home/skills" . }}
   {{/* {{ partial "home/contact" . }} */}}
 </main>
-<!-- {{ partial "home/projects" . }} -->
-
-<ul class="contents">
-  {{ range .Paginator.Pages }}
-      <li>{{.Title}}
-          <div>
-
-          </div>
-      </li>
-  {{ end }}
-  </ul>{{ end }}
+{{ partial "home/projects" . }}
+{{ end }}

@@ -5,7 +5,7 @@ cardImg="/img/blog/tech/binaryTree.jpg"
 date="2021-07-29"
 author="Me"
 showPost=true
-categories = ["tech"]
+categories = ["tech", "article"]
 tags = ["javascript", "ood"]
 type="blog"
 +++
