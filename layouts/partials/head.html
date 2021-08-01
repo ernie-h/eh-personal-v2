@@ -10,8 +10,8 @@
   </script>
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  {{/* {{ $style := resources.Get "css/main.css" | postCSS | minify | fingerprint }} */}}
-  {{/* {{ $cssOpts := (dict "targetPath" "styles/syntax.css") }} */}}
+  {{/*  {{ $style := resources.Get "css/main.css" | postCSS | minify | fingerprint }} */}}
+  {{/*  {{ $cssOpts := (dict "targetPath" "styles/syntax.css") }} */}}
   {{ $base := resources.Get "css/_base.css" }}
   {{ $footer := resources.Get "css/partials/_footer.css" }}
   {{ $header := resources.Get "css/partials/_header.css" }}
@@ -24,16 +24,12 @@
   {{ $content := resources.Get "css/common/_content.css" }}
   {{ $card := resources.Get "css/common/_card.css" }}
   {{ $common := resources.Get "css/common/_common.css" }}
-  {{ $style := slice $base $header $footer $skills $projects $home $hero $facts $contact $content $card $common |
-  resources.Concat "bundle.css" | minify | fingerprint }}
+  {{ $style := slice $base $header $footer $skills $projects $home $hero $facts $contact $content $card $common | resources.Concat "bundle.css" | minify | fingerprint }}
   <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" | safeCSS>
   <script async type="module" src="/js/main.js"></script>
   <title> {{.Site.Title}} </title>
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=5.0, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <meta name="description"
-    content="Ernie Hao | Software Engineer. Welcome to my personal site! This is where you'll learn about my projects, professional joruney and refelctions.">
-  {{ with .Params.robotsdisallow }}
-  <meta name="robots" content="noindex, nofollow, noarchive">{{ else }}
-  <meta name="robots" content="index, follow, archive">{{ end }}
+  <meta name="description" content="Ernie Hao | Software Engineer. Welcome to my personal site! This is where you'll learn about my projects, professional joruney and refelctions.">
+  {{ with .Params.robotsdisallow }}<meta name="robots" content="noindex, nofollow, noarchive">{{ else }}<meta name="robots" content="index, follow, archive">{{ end }}
 </head>
