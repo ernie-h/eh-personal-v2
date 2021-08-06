@@ -42,8 +42,6 @@ There are singly linked lists which only have a pointer to the next node in memo
   We have to iterate through the entire linked list to perform these operations
 - **Unknown size**: Don't know the size of the linked list if given just the head of the linked list
 
-## Tricks
-
 ### Traversal
 
 When iterating through a linked list, set a new pointer to the head as `current` and use that to traverse through it. Use a while loop where if `current !== null` we perform actions to that node and point `current` to `current.next`
@@ -52,4 +50,3 @@ When iterating through a linked list, set a new pointer to the head as `current`
 
 This is a great way to derive the mid way point of a linked list. Initailize a slow runnner pointer and a fast runner pointer. Have the fast runner move double as fast as the slower runner. When the fast pointer points to null we know that the slower will be pointing to the middle of the linked list. Heres a picture to show that:
 {{< figure src="/img/blog/tech/twoRunnersLinkedList.jpg" alt="Two runner pointer example" title="Two runner linked list pointer example (source: El Marshall (she/they), Jul 19, 2020)" >}}
-
